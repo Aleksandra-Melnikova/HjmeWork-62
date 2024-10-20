@@ -24,9 +24,15 @@
 }
 .footer {
   height: 100px;
+  margin-top: auto;
 }
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 75vh;
 }

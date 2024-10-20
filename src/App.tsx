@@ -15,7 +15,7 @@ const App = () => (
     <header>
       <ToolBar />
     </header>
-    <main className="container mt-4">
+    <main className="container mt-4 main-container">
       <Routes>
         {" "}
         <Route path="/" element={<Home />} />
@@ -28,7 +28,7 @@ const App = () => (
         <Route path="*" element={<h1>Not found</h1>} />
       </Routes>
     </main>
-    <footer className="bg-light">
+    <footer className="bg-light footer">
       <div className="container p-4 text-start fs-5 ps-5">
         © A.Melnikova, 2024
       </div>
