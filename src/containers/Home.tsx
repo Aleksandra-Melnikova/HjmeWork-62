@@ -2,15 +2,15 @@ import Photo from '../../src/assets/Photo.jpg';
 
 const Home = () => {
   return (
-    <div className='container'>
-      <img className='img-thumbnail rounded float-start me-3 ' src={Photo} alt="Photo"/>
+    <div className='container my-5 clearfix'>
+      <img className='img-thumbnail rounded float-start me-3' src={Photo} alt="Photo"/>
       <p className='text-start mt-3 fs-4'>
-        Привет! Меня зовут Алeксандра и я мечтаю стать фронтенд-разработчиком!
-        В данный момент я учусь в очень крутой школе Attractor School.
-        Я прохожу программу Javascript (React+Node.js).
-        Учиться в Attractor School, очень сложно, но я кайфую от процесса,
-        потому что чувствую, что IT это та сфера,
-        которую я давно искала и в которой у меня все обязательно сложится.</p>
+        Hi. My name is Alexandra and my dream is to become a frontend developer!
+        I'm currently studying at a very cool school called Attractor School.
+        I'm in the Javascript program (React+Node.js).
+        Studying at Attractor School is very hard, but I'm enjoying the process,
+        because I feel like IT is the kind of field
+        that I've been looking for for a long time and that I'm going to do well in.</p>
       <p className='text-start fs-4'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
