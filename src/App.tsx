@@ -6,6 +6,10 @@ import { Route, Routes } from "react-router-dom";
 import AboutMe from "./containers/AboutMe.tsx";
 import Contacts from "./containers/Contacts.tsx";
 
+import Portfolio from "./containers/Portfolio.tsx";
+import CountriesPage from "./containers/countryPage/containers/CountriesPage/CountriesPage.tsx";
+import Chat from "./containers/Chat/containers/Chat/Chat.tsx";
+
 const App = () => (
   <>
     <header>
@@ -13,9 +17,14 @@ const App = () => (
     </header>
     <main className="container mt-4">
       <Routes>
+        {" "}
         <Route path="/" element={<Home />} />
         <Route path="/AboutMe" element={<AboutMe />} />
         <Route path="/Contacts" element={<Contacts />} />
+        <Route path="/Portfolio" element={<Portfolio />}>
+          <Route path="CountryPage" element={<CountriesPage />} />
+          <Route path="Chat" element={<Chat />} />
+        </Route>
         <Route path="*" element={<h1>Not found</h1>} />
       </Routes>
     </main>
