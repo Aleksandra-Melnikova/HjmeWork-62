@@ -1,28 +1,28 @@
-.name{
+.name {
   text-decoration: none;
 }
-.phone{
+.phone {
   background: url("./assets/Phone-ic.png") top 20% center/50% auto no-repeat;
   width: 200px;
   height: 500px;
   padding-top: 350px;
   text-align: center;
 }
-.adress{
-  background: url("./assets/adress-ic.png") top 20%  center/50% auto no-repeat;
+.adress {
+  background: url("./assets/adress-ic.png") top 20% center/50% auto no-repeat;
   width: 200px;
   height: 500px;
   padding-top: 350px;
   text-align: center;
 }
-.mail{
+.mail {
   background: url("./assets/e-mail.png") top 25% center/50% auto no-repeat;
-width: 200px;
+  width: 200px;
   height: 500px;
   padding-top: 350px;
   text-align: center;
 }
-.footer{
+.footer {
   height: 100px;
 }
 .clearfix::after {
